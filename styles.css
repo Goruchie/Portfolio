@@ -1,5 +1,4 @@
 body {
-
   height: 590px;
   margin: 0%;
   background-image: url("images/Background.png");
@@ -51,7 +50,6 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 4%;
-  
 }
 
 .connect {
@@ -69,18 +67,15 @@ body {
   list-style-type: none;
   justify-content: start;
   padding-left: 0%;
-
-
 }
 
 .letsconnect {
-  font-weight: bolder;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
