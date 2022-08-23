@@ -1,7 +1,7 @@
 body {
   width: 375px;
   height: 590px;
-  margin: 0%; 
+  margin: 0%;
   background-image: url("images/Background.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -9,26 +9,25 @@ body {
 }
 
 .toolbar {
-  border: #172B4D;
+  border: #172b4d;
   width: 340px;
   display: flex;
   justify-content: space-around;
   gap: 50%;
   margin-top: 6%;
-
 }
 
 .primarytext {
-width: 327px;
-height: 150px;
-font-family: 'Poppins';
-font-size: 40px;
-font-weight: 700;
-line-height: 52px;
-letter-spacing: 0em;
-text-align: left;
-align-items: center;
-color: #172B4D;
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  align-items: center;
+  color: #172b4d;
 }
 
 .primarytext2 {
@@ -36,7 +35,7 @@ color: #172B4D;
   height: 146px;
   top: 276px;
   left: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -54,7 +53,7 @@ color: #172B4D;
 .connect {
   width: 117px;
   height: 24px;
-  margin-top: 2%; 
+  margin-top: 2%;
 }
 
 .social {
@@ -64,12 +63,3 @@ color: #172B4D;
   align-items: baseline;
   margin-left: 4%;
 }
-
-
-
-
-
-
-
-
-
