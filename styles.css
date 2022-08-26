@@ -20,7 +20,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fff;
-  background-position-y: 50%;
+  background-position-y: 60%;
   border-bottom-left-radius: 80px 80px;
 }
 
@@ -32,6 +32,7 @@ html {
   gap: 70%;
   margin-left: 4%;
   background-color: #fff;
+  padding-bottom: 3%;
 }
 
 .primarytext {
@@ -47,6 +48,7 @@ html {
   color: #172b4d;
   margin: 0%;
   margin-bottom: 6%;
+  margin-left: 4px;
 }
 
 .primarytext2 {
@@ -68,7 +70,7 @@ html {
   display: flex;
   flex-direction: column;
   margin-left: 4%;
-  height: 95%;
+  height: 25%;
 }
 
 .connect {
@@ -563,7 +565,6 @@ html {
 .skill-list {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding: 0;
   width: 327px;
   height: 464.15px;
@@ -575,7 +576,7 @@ html {
 
 .lang {
   width: 327px;
-  height: 55.61px;
+  height: 260px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -586,7 +587,7 @@ html {
   background-image: url('./images/disarrow.png');
   background-repeat: no-repeat;
   background-position-x: 90%;
-  background-position-y: -45%;
+  background-position-y: -2%;
   margin-left: 5%;
   padding-bottom: 10%;
 }
@@ -626,5 +627,17 @@ html {
 
 .lang-items {
   margin-top: 4px;
-  margin
+}
+
+.lang-items0 {
+  margin-top: 12%;
+}
+
+.head-cont {
+  margin-left: 20px;
+}
+
+.card1,
+.card3 {
+  padding-top: 6%;
 }
