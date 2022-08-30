@@ -772,4 +772,5 @@ button:disabled { color: #5e6c84; }
 
 .foot-back {
   background-color: #fff;
+  overflow: hidden;
 }
