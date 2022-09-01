@@ -1,6 +1,6 @@
 body {
   height: 5500px;
-  width: 375px;
+  width: 100%;
   margin: 0%;
   background-color: #f7f7f9;
 }
@@ -11,9 +11,11 @@ html {
   display: flex;
   background-color: #fff;
   margin-top: 4%;
+  
 }
 
 .first {
+  
   height: 660px;
   margin: 0%;
   background-image: url("images/Background.png");
@@ -35,9 +37,8 @@ html {
   padding-bottom: 3%;
 }
 
-.primarytext {
+.primarytext , .primarytext01{
   width: 320px;
-  height: 150px;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -47,10 +48,13 @@ html {
   align-items: center;
   color: #172b4d;
   margin: 0%;
-  margin-bottom: 6%;
+  margin-bottom: 0%;
   margin-left: 4px;
 }
 
+.primarytext01 {
+  margin-bottom: 6%;
+}
 .primarytext2 {
   width: 327px;
   height: 146px;
@@ -71,6 +75,7 @@ html {
   flex-direction: column;
   margin-left: 4%;
   height: 25%;
+  
 }
 
 .connect {
@@ -113,7 +118,7 @@ html {
   grid-row-gap: 70px;
 }
 
-.Tonic {
+.card11 {
   background-color: #fff;
   height: 552px;
   width: 300px;
@@ -122,6 +127,12 @@ html {
   border-radius: 16px;
   padding: 16px;
   border: 1px solid #dfe1e6;
+  display: flex;
+  flex-direction: column;
+}
+
+.Tonic {
+  
   display: flex;
   flex-direction: column;
 }
@@ -774,3 +785,152 @@ button:disabled { color: #5e6c84; }
   background-color: #fff;
   overflow: hidden;
 }
+
+@media screen and (min-width:768px) {
+
+  html {
+  margin-top: 2%;
+  overflow-x: hidden;
+  }
+
+  body {
+    width: 100%;
+  }
+  .first {  
+      background-image: url("images/desktop-background.png");
+      background-repeat: no-repeat;
+      background-color: #fff;
+      background-size: 96% 82%;
+      height: 16.97%;
+      border-bottom-left-radius: 150px 150px;  
+    }
+
+    .toolbar {
+      width: 100%;
+      height: 0.1%;
+      justify-content: left;
+      gap: 70%;
+       
+    }
+
+    .hamburger {
+      display: none;
+    }
+
+    .desk-nav{
+      max-width: 10%;
+      list-style-type: none;
+      font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+
+text-align:left;
+color: #344563;
+gap: 200%;
+margin-top: 0%;
+
+
+
+    }
+
+    .desk-nav a{
+      text-decoration: none;
+     
+
+
+    }
+
+    .headline {
+      width: 100%;
+      margin-top: 20%;
+      margin-left: 1.2%;
+      
+
+      
+    }
+  .headline-cont {
+    margin-left: 16%;
+  }
+
+  .primarytext, .primarytext01{
+    width: 50%;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    
+    
+  }
+
+  .primarytext01{
+    margin-bottom: 1%;
+
+  }
+
+  .primarytext2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 66%;
+    height: 0%;
+    margin-bottom: 2%;
+  }
+
+  .letsconnect {
+    margin-bottom: 0.8%;
+  }
+
+  .card1 {
+    width: 80%;
+    
+  }
+  
+  .card11 {
+    flex-direction: row;
+    width: 100%;
+  }
+   
+  .Tonic {
+    margin-left: 3%;
+    margin-top: 2%;
+       
+  }
+
+  .tonic-sec {
+    margin-left: 0%;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .canopy-li {
+    font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+  }
+
+  .canopy {
+    font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+  }
+
+  .tonic-des {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+width: 100%;
+margin-bottom: 1.8%;
+  }
+  
+}
+
+@media screen and (max-width:767px) {
+  .desk-nav {
+    display: none;
+  }
+
+
+
+} 
