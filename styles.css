@@ -1,11 +1,8 @@
 body {
-  
   width: 100%;
   margin: 0%;
   background-color: #f7f7f9;
 }
-
-
 
 .first {
   width: 100%;
@@ -15,12 +12,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fff;
-  
   border-bottom-left-radius: 80px 80px;
   background-size: 100% 80%;
- 
-  
-  
 }
 
 .headline-cont {
@@ -45,7 +38,8 @@ body {
   padding-top: 15px;
 }
 
-.primarytext , .primarytext01{
+.primarytext,
+.primarytext01 {
   width: 320px;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
@@ -63,6 +57,7 @@ body {
 .primarytext01 {
   margin-bottom: 6%;
 }
+
 .primarytext2 {
   width: 327px;
   height: 146px;
@@ -76,7 +71,6 @@ body {
   color: #344563;
   margin: 0%;
 }
-
 
 .connect {
   width: 117px;
@@ -121,7 +115,10 @@ body {
   grid-row-gap: 70px;
 }
 
-.card11, .card22, .card33, .card44 {
+.card11,
+.card22,
+.card33,
+.card44 {
   background-color: #fff;
   height: 552px;
   width: 300px;
@@ -136,17 +133,18 @@ body {
   margin-right: auto;
 }
 
-.card22, .card44 {
+.card22,
+.card44 {
   height: 596px;
 }
 
 .Tonic {
-  
   display: flex;
   flex-direction: column;
 }
 
-.tonic-sec, .tonic-sec2 {
+.tonic-sec,
+.tonic-sec2 {
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -166,7 +164,8 @@ body {
   align-items: baseline;
 }
 
-.canopy, .canopy0 {
+.canopy,
+.canopy0 {
   height: 16px;
   display: flex;
   align-items: baseline;
@@ -192,7 +191,9 @@ body {
   column-gap: 25px;
 }
 
-.tonic-des, .tonic-des0, .tonic-des1 {
+.tonic-des,
+.tonic-des0,
+.tonic-des1 {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -376,7 +377,8 @@ body {
   margin-top: 20%;
 }
 
-.Multi-Post-Stories, .Multi-Post-Stories2 {
+.Multi-Post-Stories,
+.Multi-Post-Stories2 {
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -405,10 +407,13 @@ body {
 }
 
 .about-myself {
-
   display: flex;
   flex-direction: column;
   padding-left: 20px;
+}
+
+.super-div {
+  margin-left: 5%;
 }
 
 .tittle-about {
@@ -592,7 +597,6 @@ body {
 }
 
 .lang {
-  
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -665,12 +669,10 @@ footer {
   background-color: #6070ff;
   background-position: right;
   background-position-y: 70%;
-  
   border-top-left-radius: 80px 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .ul-form {
@@ -682,7 +684,6 @@ footer {
 }
 
 footer h1 {
-  
   left: -213px;
   top: 4734px;
   font-family: 'Poppins', sans-serif;
@@ -698,7 +699,6 @@ footer h1 {
 
 footer p {
   width: 90%;
-  
   left: 24px;
   margin-top: 0%;
   font-family: 'Poppins', sans-serif;
@@ -791,66 +791,66 @@ button:disabled { color: #5e6c84; }
   overflow: hidden;
 }
 
-@media screen and (min-width:768px) {
-
- 
-
+@media screen and (min-width: 768px) {
   body {
     width: 100%;
   }
-  .first {  
-      background-image: url("images/desktop-background.png");
-      background-repeat: no-repeat;
-      background-color: #fff;
-      background-size: 96% 82%;
-      height: 16.97%;
-      border-bottom-left-radius: 150px 150px;  
-      padding-bottom: 20%;
-    }
 
-    .canopy0, .hamburger, .lang-items0, .lang-items {
-      display: none;
-    }
+  .first {
+    background-image: url("images/desktop-background.png");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 96% 82%;
+    height: 16.97%;
+    border-bottom-left-radius: 150px 150px;
+    padding-bottom: 20%;
+  }
 
-    .desk-nav{
-      
-      list-style-type: none;
-      font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-display: flex;
+  .canopy0,
+  .hamburger,
+  .lang-items0,
+  .lang-items {
+    display: none;
+  }
 
-text-align:left;
-color: #344563;
-gap: 20px;
-margin-top: 0%;
-    }
+  .desk-nav {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    text-align: left;
+    color: #344563;
+    gap: 20px;
+    margin-top: 0%;
+  }
 
-    .desk-nav a{
-      text-decoration: none;
-      color: #344563;
-    }
+  .desk-nav a {
+    text-decoration: none;
+    color: #344563;
+  }
 
-    .headline {
-      width: 100%;
-      margin-top: 20%;
-      margin-left: 1.2%;
-    }
+  .headline {
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 1.2%;
+  }
 
   .headline-cont {
     margin-left: 16%;
   }
 
-  .primarytext, .primarytext01{
+  .primarytext,
+  .primarytext01 {
     width: 50%;
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.37px;
   }
 
-  .primarytext01{
+  .primarytext01 {
     margin-bottom: 1%;
   }
 
@@ -867,26 +867,31 @@ margin-top: 0%;
     margin-bottom: 0.8%;
   }
 
-  .card1, .card2, .card3 {
-    
-    
-  }
- 
   .card4 {
     padding-bottom: 0%;
   }
- 
-  .card11, .card22, .card33, .card44 {
+
+  .card11,
+  .card22,
+  .card33,
+  .card44 {
     flex-direction: row;
     width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    height: 80%;
   }
 
-  .card22, .card44 {
+  .card22,
+  .card44 {
     flex-direction: row-reverse;
   }
 
-   
-  .Tonic, .Tonic2 {
+  .Tonic,
+  .Tonic2 {
     margin-left: 5%;
     margin-top: 0.6%;
   }
@@ -897,59 +902,66 @@ margin-top: 0%;
     line-height: 52px;
   }
 
+  .Tonic2 {
+    order: -1;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
   .canopy-li {
     font-weight: 400;
-font-size: 18px;
-line-height: 24px;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .canopy {
     font-weight: 500;
-font-size: 18px;
-line-height: 24px;
+    font-size: 18px;
+    line-height: 24px;
   }
 
-  .tonic-des0, .tonic-des1{
+  .tonic-des0,
+  .tonic-des1 {
     font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-width: 90%;
-margin-bottom: 1.8%;
-  }
-  
-  .dwork {
-    display:block;
-    
+    font-size: 16px;
+    line-height: 24px;
+    width: 90%;
+    margin-bottom: 1.8%;
   }
 
-  .mwork, .tonic-sec2, .canopy, .tonic-des, .Multi-Post-Stories2 {
+  .dwork {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+  .mwork,
+  .tonic-sec2,
+  .canopy,
+  .tonic-des,
+  .Multi-Post-Stories2 {
     display: none;
   }
-
 
   .footer-h1 {
     padding-top: 5%;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   footer p {
     width: 35%;
   }
+
   footer {
     padding-bottom: 7%;
     background-image: url("images/formd.svg");
-    
     border-top-left-radius: 150px 150px;
     padding-top: 2%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80% 100%;
   }
-
-form {
-  width: 30%;
-}
 
   button[type=submit] {
     margin-left: 30%;
@@ -966,159 +978,214 @@ form {
     padding-top: 12%;
     padding-left: 5%;
     gap: 5%;
+    border-top-right-radius: 150px 150px;
   }
 
   .p-about {
     width: 447px;
     height: 102px;
-  
   }
-  
+
   .skill-list {
-   justify-content: flex-start;
-   width: 90%;
-   
-   
+    justify-content: flex-start;
+    width: 90%;
   }
 
+  .lang {
+    display: flex;
+    background-position-x: 95%;
+    padding-bottom: 5%;
+    margin-top: 8%;
+  }
 
- .lang {
-  display: flex;
-  background-position-x: 95%;
-  padding-bottom: 5%;
-  margin-top: 8%;
-  
-  
- }
+  .about2 {
+    padding-bottom: 0%;
+    width: 60%;
+  }
 
- .about2 {
-  padding-bottom: 0%;
-  width: 60%;
- }
+  .lang-items2 {
+    display: flex;
+    gap: 5%;
+    margin-left: 4%;
+  }
 
- .lang-items2 {
-  display: flex;
-  gap: 5%;
-  margin-left: 4%;
- }
+  .frame {
+    background-position-y: -20%;
+    margin-top: 5%;
+  }
 
- .frame {
-  background-position-y: -20%;
-  margin-top: 5%;
-  
- }
+  .skills {
+    background-position-y: -20%;
+    margin-top: 2%;
+  }
 
-.skills {
-  background-position-y: -20%;
-  margin-top: 2%;
+  .solid {
+    margin-top: 3%;
+  }
+
+  .get-my-resume {
+    margin-top: 10%;
+  }
+
+  .card3 {
+    padding-top: 0%;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .card1 {
+    padding-top: 0%;
+  }
+
+  .Works {
+    grid-row-gap: 10%;
+    grid-template-rows: repeat(5, 1fr);
+    padding-bottom: 20%;
+  }
+
+  input[type=text] {
+    width: 30.5em;
+    height: 48px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    padding-left: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type=email] {
+    width: 30.5em;
+    height: 48px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    padding-left: 16px;
+  }
+
+  form {
+    width: auto;
+  }
+
+  .contactp {
+    width: 31%;
+  }
+
+  .tonic-sec1,
+  .Multi-Post-Stories1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .facebook,
+  .canopyd,
+  .Uber {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .Multi-Post-Stories {
+    width: 80%;
+    height: 9%;
+    margin: 1%;
+    margin-left: 0%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .tonic-des1 {
+    margin-top: 5%;
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+  .tonic-des2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    width: 90%;
+    margin-bottom: 6%;
+  }
+
+  .Tonic {
+    margin-left: 10%;
+  }
+
+  .tonic-sec1 {
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+
+  .tonic-des3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-top: 5%;
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+  .Multi-Post-Stories1 {
+    width: 80%;
+    height: 9%;
+    margin: 1%;
+    margin-left: 0%;
+  }
 }
 
-.solid {
- margin-top: 3%;
-}
-
-.get-my-resume {
-  margin-top: 10%;
-}
-
-.card3 {
-padding-top: 0%;
-}
-
-.card1, .card2, .card3, .card4 {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.card1 {
-  padding-top: 0%;
-}
-
-.Works {
-  grid-row-gap: 10%;
-  grid-template-rows: repeat(5, 1fr);
-}
-
-.about1 {
-
-  border-top-right-radius: 150px 150px;
- 
-
-}
-
-input[type=text] {
-  width: 30.5em;
-  height: 48px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  padding-left: 16px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-input[type=email] {
-  width: 30.5em;
-  height: 48px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  padding-left: 16px;
-}
-
-form {
-  width: auto;
-}
-
-.contactp {
-  width: 31%;
-}
-
-.tonic-sec1, .Multi-Post-Stories1 {
-  font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: #091E42;
-}
-
-.facebook, .canopyd, .Uber {
-  font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-color: #344563;
-}
-
-
-}
-
-
-@media screen and (max-width:767px) {
-  .js, .html, .css, .textd, .tonic-des3, .desk-nav, .facebook, .tonic-des1, .tonic-sec1, .Multi-Post-Stories1, .Uber, .tonic-des2 {
+@media screen and (max-width: 767px) {
+  .canopyd,
+  .js,
+  .html,
+  .css,
+  .textd,
+  .tonic-des3,
+  .desk-nav,
+  .facebook,
+  .tonic-des1,
+  .tonic-sec1,
+  .Multi-Post-Stories1,
+  .Uber,
+  .tonic-des2 {
     display: none;
   }
- 
-
-
-} 
+}
