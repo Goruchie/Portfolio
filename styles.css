@@ -109,6 +109,10 @@ body {
   margin-bottom: 2%;
 }
 
+.transitions:hover {
+  transform: scale(1.5);
+}
+
 .Works {
   display: grid;
   grid-template-columns: 1fr;
