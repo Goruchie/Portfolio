@@ -978,6 +978,7 @@ button:disabled { color: #5e6c84; }
     padding-top: 12%;
     padding-left: 5%;
     gap: 5%;
+    margin-top: 20%;
     border-top-right-radius: 150px 150px;
   }
 
@@ -1187,5 +1188,42 @@ button:disabled { color: #5e6c84; }
   .Uber,
   .tonic-des2 {
     display: none;
+  }
+
+  .lang {
+    padding-bottom: 0%;
+  }
+
+  .ul-form {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
+
+  button[type=submit] {
+    margin-top: 0%;
+  }
+
+  footer {
+    padding-bottom: 15%;
+  }
+
+  input[type=text] {
+    width: 17.9em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type=email] {
+    width: 17.9em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  form {
+    padding-right: 1%;
+  }
+
+  .about2 {
+    padding-bottom: 2%;
   }
 }
