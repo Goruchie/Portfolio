@@ -806,7 +806,10 @@ button:disabled { color: #5e6c84; }
     padding-bottom: 20%;
   }
   
-  .canopy0, .hamburger, .lang-items0, .lang-items {
+  .canopy0, 
+  .hamburger, 
+  .lang-items0, 
+  .lang-items {
     display: none;
   }
 
