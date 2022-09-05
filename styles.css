@@ -795,7 +795,7 @@ button:disabled { color: #5e6c84; }
   body {
     width: 100%;
   }
-  
+
   .first {
     background-image: url("images/desktop-background.png");
     background-repeat: no-repeat;
@@ -812,7 +812,7 @@ button:disabled { color: #5e6c84; }
   .lang-items {
     display: none;
   }
-  
+
   .desk-nav {
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
