@@ -795,6 +795,13 @@ button:disabled { color: #5e6c84; }
   body {
     width: 100%;
   }
+  
+  .canopy0,
+  .hamburger, 
+  .lang-items0, 
+  .lang-items {
+    display: none;
+  }
 
   .first {
     background-image: url("images/desktop-background.png");
@@ -806,13 +813,6 @@ button:disabled { color: #5e6c84; }
     padding-bottom: 20%;
   }
   
-  .canopy0, 
-  .hamburger, 
-  .lang-items0, 
-  .lang-items {
-    display: none;
-  }
-
   .desk-nav {
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
