@@ -18,11 +18,19 @@
       </a>
       
       <nav>
-        <button class="drop-button" onclick="dropFunction()">
-        <a class="hamburger" href="#">
-          <img src="./images/Hamburger.png" alt="Hamburger-icon.">
-        </a>
-        </button>
+        <div class="dropdown">
+          <button class="drop-button" onclick="dropFunction()">
+          <a class="hamburger" href="#">
+            <img src="./images/Hamburger.png" alt="Hamburger-icon.">
+          </a>
+          </button>
+          <div class="drop-content" id="drop-content">
+            <a class="cls-btn" onclick="dropFunction()"><img img src="./images/Icon.png" height="12px" width="12px"></a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
         <ul class="desk-nav">
           <li>
             <a href="#portfolio">Portfolio</a>
