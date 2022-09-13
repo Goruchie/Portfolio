@@ -39,15 +39,15 @@ body {
 }
 
 .drop-content {
-  display: block;
+  display: none;
   background-color: #6070ff;
   mix-blend-mode: multiply;
   backdrop-filter: blur(5px);
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   padding-top: 17%;
   padding-left: 5%;
 }
@@ -65,14 +65,22 @@ body {
   margin-top: 4%;
 }
 
-.drop-content a:hover { color: #cfd8dc; }
+.drop-content a:hover { color: #7a869a; }
+
+.show {
+  display: block;
+}
+
+.drop-button {
+  background-color: transparent;
+  border: none;
+}
 
 .cls-btn {
   position: absolute;
   right: 8%;
   top: 1.5%;
 }
-
 
 .primarytext,
 .primarytext01 {
@@ -460,7 +468,6 @@ body {
   font-size: 40px;
   line-height: 52px;
   display: flex;
-  text-align: bottom;
   color: #172b4d;
   flex: none;
   order: 0;
