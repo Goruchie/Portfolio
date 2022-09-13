@@ -18,9 +18,19 @@
       </a>
       
       <nav>
-        <a class="hamburger" href="#">
-          <img src="./images/Hamburger.png" alt="Hamburger-icon.">
-        </a>
+        <div class="dropdown">
+          <button class="drop-button hamburger" onclick="dropFunction()">
+          
+            <img src="./images/Hamburger.png" alt="Hamburger-icon.">
+          
+          </button>
+          <div class="drop-content" id="drop-content">
+            <a class="cls-btn" onclick="dropFunction()"><img src="./images/Icon.png" height="12" width="12" alt="x"></a>
+            <a onclick="dropFunction()" href="#portfolio">Portfolio</a>
+            <a onclick="dropFunction()" href="#about">About</a>
+            <a onclick="dropFunction()" href="#contact">Contact</a>
+          </div>
+        </div>
         <ul class="desk-nav">
           <li>
             <a href="#portfolio">Portfolio</a>
@@ -270,5 +280,6 @@
   </form>
 </footer>
 </div>
+<script src="app.js"></script>
 </body>
 </html>
