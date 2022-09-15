@@ -1141,6 +1141,7 @@ button:disabled { color: #5e6c84; }
 
   .tonic-sec1,
   .Multi-Post-Stories1 {
+    width: 10%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1214,6 +1215,27 @@ button:disabled { color: #5e6c84; }
     margin: 1%;
     margin-left: 0%;
   }
+
+  .Multi-Post-Stories1 {
+    width: 100%;    
+    height: 10%;
+  }
+
+  .tonic-des0 {
+    display: none;
+  }
+
+  .tonic-des01 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-top: 2%;
+    width: 80%;
+    margin-bottom: 5%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1268,5 +1290,24 @@ button:disabled { color: #5e6c84; }
 
   .about2 {
     padding-bottom: 2%;
+  }
+
+  .Multi-Post-Stories2 {
+    font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  left: 0;
+  top: 0;
+  margin: 4%;
+  margin-left: 1%;
+  width: 60%;
+  height: auto;
+  }
+
+  .tonic-des01 {
+    display: none;
   }
 }
