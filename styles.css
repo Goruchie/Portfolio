@@ -1002,7 +1002,6 @@ button:disabled { color: #5e6c84; }
   margin-top: 3%;
   text-align: center;
   padding-top: 5%;
-  padding-bottom: auto;
   margin-left: 3%;
 }
 
@@ -1191,7 +1190,7 @@ button:disabled { color: #5e6c84; }
   }
 
   button[type=submit] {
-    margin-left: 30%;
+    margin-left: 36%;
   }
 
   .about1 {
@@ -1674,5 +1673,3 @@ button:disabled { color: #5e6c84; }
     display: none;
   }
 }
-
-
