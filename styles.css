@@ -990,7 +990,34 @@ button:disabled { color: #5e6c84; }
   margin-top: 2%;
 }
 
+#error {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: rgb(233, 58, 58);
+  border: solid rgb(233, 58, 58);
+  background: rgb(256, 256, 256, 0.5);
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 3%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: auto;
+  margin-left: 3%;
+}
+
+.textm {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+}
+
 @media screen and (min-width: 768px) {
+  .textm {
+    width: 92%;
+  }
+
   body {
     width: 100%;
   }
@@ -1165,10 +1192,6 @@ button:disabled { color: #5e6c84; }
 
   button[type=submit] {
     margin-left: 30%;
-  }
-
-  .textm {
-    display: none;
   }
 
   .about1 {
@@ -1651,3 +1674,5 @@ button:disabled { color: #5e6c84; }
     display: none;
   }
 }
+
+

@@ -211,5 +211,6 @@ form.addEventListener('submit', (e) => {
   } else {
     e.preventDefault();
     eMessage.textContent = 'The email must be in lowercase';
+    eMessage.style.display = 'block';
   }
 });
