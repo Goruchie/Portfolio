@@ -214,3 +214,26 @@ form.addEventListener('submit', (e) => {
     eMessage.style.display = 'block';
   }
 });
+
+// local storage starts
+
+const inputName = document.getElementById('input-name');
+const inputText = document.getElementById('ta-id');
+
+form.addEventListener('input', () => {
+  const valuesObj = {
+    nameValue: inputName.value,
+    emailValue: email.value,
+    textAreaValue: inputText.value,
+  };
+  localStorage.setItem('userFormDataCollected', JSON.stringify(valuesObj));
+});
+
+let getData = localStorage.getItem('userFormDataCollected');
+getData = JSON.parse(getData);
+
+if (getData != null) {
+  inputName.value = getData.nameValue;
+  email.value = getData.emailValue;
+  inputText.value = getData.textAreaValue;
+}
