@@ -214,3 +214,17 @@ form.addEventListener('submit', (e) => {
     eMessage.style.display = 'block';
   }
 });
+
+// local storage starts
+
+const fullName = document.getElementById('input-name');
+const textArea = document.getElementById('ta-id');
+
+form.addEventListener('input', () => {
+  const formInputKeysAndValues = {
+    nameValue: fullName.value,
+    emailValue: email.value,
+    textAreaValue: textArea.value,
+  };
+  localStorage.setItem('userFormDataCollected', JSON.stringify(formInputKeysAndValues));
+});
