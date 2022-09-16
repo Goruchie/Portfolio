@@ -217,14 +217,23 @@ form.addEventListener('submit', (e) => {
 
 // local storage starts
 
-const fullName = document.getElementById('input-name');
-const textArea = document.getElementById('ta-id');
+const inputName = document.getElementById('input-name');
+const inputText = document.getElementById('ta-id');
 
 form.addEventListener('input', () => {
-  const formInputKeysAndValues = {
-    nameValue: fullName.value,
+  const valuesObj = {
+    nameValue: inputName.value,
     emailValue: email.value,
-    textAreaValue: textArea.value,
+    textAreaValue: inputText.value,
   };
-  localStorage.setItem('userFormDataCollected', JSON.stringify(formInputKeysAndValues));
+  localStorage.setItem('userFormDataCollected', JSON.stringify(valuesObj));
 });
+
+let getData = localStorage.getItem('userFormDataCollected');
+getData = JSON.parse(getData);
+
+if (getData != null) {
+  inputName.value = getData.nameValue;
+  email.value = getData.emailValue;
+  inputText.value = getData.textAreaValue;
+}
