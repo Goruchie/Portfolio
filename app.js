@@ -200,3 +200,16 @@ const clickPopup = (seeButton) => {
 const clsPopup = () => {
   popupWindow.style.display = 'none';
 };
+
+const form = document.getElementById('form-id');
+const email = document.getElementById('email-id');
+const eMessage = document.getElementById('error');
+
+form.addEventListener('submit', (e) => {
+  if (email.value === email.value.toLowerCase()) {
+    eMessage.textContent = '';
+  } else {
+    e.preventDefault();
+    eMessage.textContent = 'The email must be in lowercase';
+  }
+});
