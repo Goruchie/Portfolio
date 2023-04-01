@@ -1558,33 +1558,28 @@ button:disabled { color: #5e6c84; }
   .tonic-sec1,
   .Multi-Post-Stories1,
   .Uber,
-  .tonic-des2 {
+  .tonic-des2,
+  .tonic-des01,
+  .dwork1,
+  .tonic-des01-pop {
     display: none;
   }
 
-  .lang {
-    padding-bottom: 0%;
-  }
-
+  .lang,
   .ul-form {
-    margin-bottom: 0%;
     padding-bottom: 0%;
   }
 
+  .ul-form,
   button[type=submit] {
-    margin-top: 0%;
+    margin-bottom: 0%;
   }
 
   footer {
     padding-bottom: 15%;
   }
 
-  input[type=text] {
-    width: 17.9em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
+  input[type=text],
   input[type=email] {
     width: 17.9em;
     margin-left: auto;
@@ -1611,11 +1606,5 @@ button:disabled { color: #5e6c84; }
     margin-left: 1%;
     width: 60%;
     height: auto;
-  }
-
-  .tonic-des01,
-  .dwork1,
-  .tonic-des01-pop {
-    display: none;
   }
 }
