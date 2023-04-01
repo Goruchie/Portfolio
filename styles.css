@@ -2,6 +2,7 @@ body {
   width: 100%;
   margin: 0%;
   background-color: #f7f7f9;
+  font-family: 'Poppins', sans-serif;
 }
 
 .first {
@@ -55,7 +56,6 @@ body {
 .drop-content a {
   display: flex;
   flex-direction: column;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -85,7 +85,6 @@ body {
 .primarytext,
 .primarytext01 {
   width: 320px;
-  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -107,7 +106,6 @@ body {
   height: 146px;
   top: 276px;
   left: 24px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -135,7 +133,6 @@ body {
 }
 
 .letsconnect {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -189,7 +186,6 @@ body {
 
 .tonic-sec,
 .tonic-sec2 {
-  font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -213,7 +209,6 @@ body {
   height: 16px;
   display: flex;
   align-items: baseline;
-  font-family: 'Poppins', sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -225,7 +220,6 @@ body {
 
 .canopy-li {
   display: flex;
-  font-family: 'Poppins', sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -238,7 +232,6 @@ body {
 .tonic-des,
 .tonic-des0,
 .tonic-des1 {
-  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -261,7 +254,6 @@ body {
 }
 
 .html-button {
-  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
@@ -282,7 +274,6 @@ body {
 }
 
 .css-button {
-  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
@@ -303,7 +294,6 @@ body {
 }
 
 .js-button {
-  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
@@ -334,7 +324,6 @@ body {
   left: 0;
   top: calc(50% - 48px / 2);
   border: 1px solid #6070ff;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -353,7 +342,6 @@ body {
 .see-project-sign:enabled {
   height: 48px;
   width: 130px;
-  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -370,7 +358,6 @@ body {
 .see-project-sign:hover {
   height: 48px;
   width: 130px;
-  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -387,7 +374,6 @@ body {
 .see-project-sign:active {
   height: 48px;
   width: 130px;
-  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -402,7 +388,6 @@ body {
 .see-project-sign:disabled {
   height: 48px;
   width: 130px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -423,7 +408,6 @@ body {
 
 .Multi-Post-Stories,
 .Multi-Post-Stories2 {
-  font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -462,7 +446,6 @@ body {
 
 .tittle-about {
   width: 250px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -479,7 +462,6 @@ body {
 .p-about {
   width: 327px;
   height: 144px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -491,7 +473,6 @@ body {
 }
 
 .letsconnect2 {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -514,7 +495,6 @@ body {
   left: 0;
   top: calc(50% - 48px / 2);
   border: 1px solid #6070ff;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -534,7 +514,6 @@ body {
 .get-my-resume:enabled {
   width: 165px;
   height: 48px;
-  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -551,7 +530,6 @@ body {
 .get-my-resume:hover {
   width: 165px;
   height: 48px;
-  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -568,7 +546,6 @@ body {
 .get-my-resume:active {
   width: 165px;
   height: 48px;
-  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -583,7 +560,6 @@ body {
 .get-my-resume:disabled {
   width: 165px;
   height: 48px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -640,7 +616,6 @@ body {
 }
 
 .lang {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -656,7 +631,6 @@ body {
 }
 
 .frame {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -670,7 +644,6 @@ body {
 }
 
 .skills {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -729,7 +702,6 @@ footer {
 footer h1 {
   left: -213px;
   top: 4734px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -744,7 +716,6 @@ footer p {
   width: 90%;
   left: 24px;
   margin-top: 0%;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -764,7 +735,6 @@ input[type=text] {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -782,7 +752,6 @@ input[type=email] {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -794,7 +763,6 @@ textarea {
   left: 0;
   top: 0;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -810,7 +778,6 @@ button[type=submit] {
   width: 165px;
   height: 48px;
   border: 1px solid #6070ff;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -857,7 +824,6 @@ button:disabled { color: #5e6c84; }
 }
 
 .popup-title {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -880,7 +846,6 @@ button:disabled { color: #5e6c84; }
 
 .canopy-li-pop {
   display: flex;
-  font-family: 'Poppins', sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -892,7 +857,6 @@ button:disabled { color: #5e6c84; }
 }
 
 .tonic-des0-pop {
-  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -926,7 +890,6 @@ button:disabled { color: #5e6c84; }
 }
 
 .see-live {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -960,7 +923,6 @@ button:disabled { color: #5e6c84; }
 }
 
 .see-source {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -992,7 +954,6 @@ button:disabled { color: #5e6c84; }
 
 #error {
   display: none;
-  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   color: rgb(233, 58, 58);
   border: solid rgb(233, 58, 58);
@@ -1041,7 +1002,6 @@ button:disabled { color: #5e6c84; }
 
   .desk-nav {
     list-style-type: none;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1282,7 +1242,6 @@ button:disabled { color: #5e6c84; }
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1302,7 +1261,6 @@ button:disabled { color: #5e6c84; }
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1321,7 +1279,6 @@ button:disabled { color: #5e6c84; }
   .tonic-sec1,
   .Multi-Post-Stories1 {
     width: 10%;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1332,7 +1289,6 @@ button:disabled { color: #5e6c84; }
   .facebook,
   .canopyd,
   .Uber {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1357,7 +1313,6 @@ button:disabled { color: #5e6c84; }
   }
 
   .tonic-des2 {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1377,7 +1332,6 @@ button:disabled { color: #5e6c84; }
   }
 
   .tonic-des3 {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1400,7 +1354,6 @@ button:disabled { color: #5e6c84; }
   }
 
   .tonic-des01 {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1431,7 +1384,6 @@ button:disabled { color: #5e6c84; }
   }
 
   .tonic-des01-pop {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1463,7 +1415,6 @@ button:disabled { color: #5e6c84; }
   }
 
   .popup-title {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -1486,7 +1437,6 @@ button:disabled { color: #5e6c84; }
 
   .canopy-li-pop {
     display: flex;
-    font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: 600;
     line-height: 16px;
@@ -1498,7 +1448,6 @@ button:disabled { color: #5e6c84; }
   }
 
   .tonic-des0-pop {
-    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -1541,7 +1490,6 @@ button:disabled { color: #5e6c84; }
   }
 
   .see-live {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1575,7 +1523,6 @@ button:disabled { color: #5e6c84; }
   }
 
   .see-source {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1653,7 +1600,6 @@ button:disabled { color: #5e6c84; }
   }
 
   .Multi-Post-Stories2 {
-    font-family: 'Poppins', sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
