@@ -1,171 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="first">
-    <header class="toolbar">
-      <a class="my-logo" href="#">
-        <img src="./images/My-Logo.png" alt="My Logo-icon.">
-      </a>
-      
-      <nav>
-        <div class="dropdown">
-          <button id="menu" class="drop-button hamburger">
-          
-            <img src="./images/Hamburger.png" alt="Hamburger-icon.">
-          
-          </button>
-          <div class="drop-content" id="drop-content">
-            <a class="cls-btn"><img src="./images/Icon.png" height="12" width="12" alt="x"></a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>My Portfolio</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="first">
+      <header class="toolbar">
+        <a class="my-logo" href="#">
+          <img src="./images/My-Logo.png" alt="My Logo-icon.">
+        </a>
+        <nav>
+          <div class="dropdown">
+            <button id="menu" class="drop-button hamburger">
+              <img src="./images/Hamburger.png" alt="Hamburger-icon.">
+            </button>
+            <div class="drop-content" id="drop-content">
+              <a class="cls-btn"><img src="./images/Icon.png" height="12" width="12" alt="x"></a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
+            </div>
           </div>
-        </div>
-        <ul class="desk-nav">
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="headline-cont">
-      <section class="headline">
-        <h1 class="primarytext">I’m Marcos</h1>
-        <h1 class="primarytext01">Glad to see you!</h1>
-      </section>
-        <div class="head-cont">
-          <p class="primarytext2">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+          <ul class="desk-nav">
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="headline-cont">
+        <section class="headline">
+          <h1 class="primarytext">I’m Marcos</h1>
+          <h1 class="primarytext01">Glad to see you!</h1>
+        </section>
+          <div class="head-cont">
+            <p class="primarytext2">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
             <h2 class="letsconnect">LET'S CONNECT</h2>     
-              <ul class="social">
-                <li class="connect">
-                  <img class="transitions"  src="./images/Twitter.png" alt="Twitter-icon">
-                </li>
-                  <li class="connect">
-                    <img class="transitions" src="./images/Linkedin-icon.png" alt="Linkedin-icon">
-                  </li>
-                    <li class="connect">
-                      <img class="transitions" src="./images/Mail.png" alt="Mail-icon">
-                    </li>
-                      <li class="connect">
-                        <img class="transitions" src="./images/Git.png" alt="Git-icon">
-                      </li>
-                        <li class="connect" >
-                          <img class="transitions" src="./images/Peace.png" alt="Peace-icon">
-                        </li>
-               </ul>
-           </div>
+            <ul class="social">
+              <li class="connect">
+                <img class="transitions"  src="./images/Twitter.png" alt="Twitter-icon">
+              </li>
+              <li class="connect">
+                <img class="transitions" src="./images/Linkedin-icon.png" alt="Linkedin-icon">
+              </li>
+              <li class="connect">
+                <img class="transitions" src="./images/Mail.png" alt="Mail-icon">
+              </li>
+              <li class="connect">
+                <img class="transitions" src="./images/Git.png" alt="Git-icon">
+              </li>
+              <li class="connect" >
+                <img class="transitions" src="./images/Peace.png" alt="Peace-icon">
+              </li>
+            </ul>
           </div>
+      </div>
+    </div>
+    <div class="works-container">
+      <section id="portfolio" class="Works"></section>   
+    </div>
+    <div id="popupWindow"></div>
+      <div class="about1">
+        <div class="super-div">
+          <section id="about" class="about-myself"></section>
+            <h1 class="tittle-about">About Myself</h1>
+            <p class="p-about">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            <h2 class="letsconnect2">LET'S CONNECT</h2>
+            <ul class="social2">
+              <li class="s1">
+                <img src="./images/Twitter.png" alt="Twitter icon">
+              </li>
+              <li class="s2">
+                <img src="./images/Linkedin-icon.png" alt="Linkedin icon">
+              </li>
+              <li class="s3">
+                <img src="./images/Mail.png" alt="Mail icon">
+              </li>
+              <li class="s4">
+                <img src="./images/Git.png" alt="Git icon">
+              </li>
+              <li class="s5" >
+                <img src="./images/Peace.png" alt="Peace icon">
+              </li>
+            </ul>
+            <button class="get-my-resume">Get my resume</button>  
         </div>
-
-<div class="works-container">
-   <section id="portfolio" class="Works"></section>   
-</div>
-  <div id="popupWindow"></div>
-
-    <div class="about1">
-
-       <div class="super-div">
-
-    <section id="about" class="about-myself"></section>
-
-                 <h1 class="tittle-about">About Myself</h1>
-                 <p class="p-about">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                 <h2 class="letsconnect2">LET'S CONNECT</h2>
-                 <ul class="social2">
-                  <li class="s1">
-                 <img src="./images/Twitter.png" alt="Twitter icon">
-                 </li>
-                 <li class="s2">
-                 <img src="./images/Linkedin-icon.png" alt="Linkedin icon">
-                 </li>
-                 <li class="s3">
-                 <img src="./images/Mail.png" alt="Mail icon">
-                 </li>
-                 <li class="s4">
-                 <img src="./images/Git.png" alt="Git icon">
-                 </li>
-                 <li class="s5" >
-                 <img src="./images/Peace.png" alt="Peace icon">
-                 </li>
-                 </ul>
-                      <button class="get-my-resume">Get my resume</button>  
-
-                    </div>
-
-                    <div class="about2">
-
-                    <ul class="skill-list">
-               
-                 <li class="lang">Languages 
-                   <img class="lang-items0" src="./images/js.png" alt="js-icon">
-           
-                   <img class="lang-items" src="./images/html.png" alt="html-icon">
-           
-                   <img class="lang-items" src="./images/css.png" alt="css-icon">
-                      </li>
-                     <li class="lang-items2">
-                 <img class="js" src="./images/js.svg" alt="js-icon">
-                      <img class="html" src="./images/html.svg" alt="html-icon">
-                      <img class="css" src="./images/css.svg" alt="css-icon">
-                    </li>
-    
-                  <li class="frame">Frameworks <hr class="solid">
-    
-                  </li>
-                    <li class="skills">Skills <hr class="solid">
-                    </li>
-                      </ul>
-                  
-                  </div>
-    
-  </div>
-
-
-  
-    <div class="foot-back">
-    <footer id="contact"> 
-      <h1 class="footer-h1">Contact me</h1>
-      <p class="contactp">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-      <form id="form-id"
-      action="https://formspree.io/f/xrgdbdop"
-      method="POST"
-    >
-       <ul class="ul-form">
-        <li>
-        <input id="input-name" type="text" name="name" maxlength="30" placeholder="Write your name here" required>
-      </li>
-      <li>
-        <input id="email-id" type="email" name="email" placeholder="name@domain.com" required>
-      </li> 
-        <li>
-        <textarea id="ta-id" class="textm" cols="35" rows="6" name="message" maxlength="500" placeholder="Write your message here" required></textarea>
-      </li>
-      <!-- <li>
-        <textarea class="textd" cols="63" rows="8" name="text" maxlength="500" placeholder="Write your message here" required></textarea>
-      </li> -->
-      </ul>
-  
-      <button type="submit">Get it Touch</button>
-        <small id="error"></small>
-    </form>
-</footer>
-</div>
-<script src="app.js"></script>
-</body>
+      <div class="about2">
+        <ul class="skill-list">
+          <li class="lang">Languages 
+            <img class="lang-items0" src="./images/js.png" alt="js-icon">  
+            <img class="lang-items" src="./images/html.png" alt="html-icon">  
+            <img class="lang-items" src="./images/css.png" alt="css-icon">
+          </li>
+          <li class="lang-items2">
+            <img class="js" src="./images/js.svg" alt="js-icon">
+            <img class="html" src="./images/html.svg" alt="html-icon">
+            <img class="css" src="./images/css.svg" alt="css-icon">
+          </li>
+          <li class="frame">Frameworks <hr class="solid"></li>
+          <li class="skills">Skills <hr class="solid"></li>
+        </ul>              
+      </div>                
+    </div>
+      <div class="foot-back">
+        <footer id="contact"> 
+          <h1 class="footer-h1">Contact me</h1>
+          <p class="contactp">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            <form id="form-id" action="https://formspree.io/f/xrgdbdop" method="POST">
+              <ul class="ul-form">
+                <li>
+                <input id="input-name" type="text" name="name" maxlength="30" placeholder="Write your name here" required>
+                </li>
+                <li>
+                  <input id="email-id" type="email" name="email" placeholder="name@domain.com" required>
+                </li> 
+                <li>
+                  <textarea id="ta-id" class="textm" cols="35" rows="6" name="message" maxlength="500" placeholder="Write your message here" required></textarea>
+                </li>
+              </ul>
+              <button type="submit">Get it Touch</button>
+                <small id="error"></small>
+            </form>
+        </footer>
+      </div>
+      <script src="app.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
 </html>
