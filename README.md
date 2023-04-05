@@ -1,6 +1,6 @@
-# Personal_Portafolio_Web_Site![](https://img.shields.io/badge/Microverse-blueviolet)
+# My Portfolio[](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portafolio
+# Portfolio
 
 > You could find more information about my experience, projects , achieves , career path and much more just take a look at this content.
 
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Marcos's Portfolio](https://goruchie.github.io/First-Portfolio/)
+[Marcos's Portfolio](https://goruchie.github.io/Portfolio/)
  
 ## Getting Started
 
