@@ -1,6 +1,4 @@
-# My Portfolio[](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Portfolio
+# My Portfolio [](https://img.shields.io/badge/Microverse-blueviolet)
 
 > You could find more information about my experience, projects , achieves , career path and much more just take a look at this content.
 
