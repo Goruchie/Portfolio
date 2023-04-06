@@ -1057,7 +1057,7 @@ button:disabled { color: #5e6c84; }
 
   .modal-image {
     width: 100%;
-    height: 30rem;
+    height: 50vh;
     align-self: center;
     margin-bottom: 2rem;
   }
