@@ -62,7 +62,7 @@ const htmlArray = [
     modality: 'REMOTE',
     highlight: '2023',
     description: 'Is a mobile web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.',
-    frame1: 'Ruby on Rails',
+    frame1: 'RoR',
     frame2: 'CSS',
     frame3: 'SQL',
     frame4: 'Render',
