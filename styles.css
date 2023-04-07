@@ -492,7 +492,6 @@ footer p {
 
 .p-about {
   width: 327px;
-  height: 144px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -500,7 +499,7 @@ footer p {
   color: #344563;
   flex: none;
   flex-grow: 0;
-  margin-bottom: 0%;
+  margin-bottom: 2%;
 }
 
 .letsconnect2 {
