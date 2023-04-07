@@ -119,14 +119,15 @@ header {
   0% {
     box-shadow: 0 0 40px rgba(96, 112, 255, 0.4);
   }
+
   50% {
     box-shadow: 0 0 20px rgba(96, 112, 255, 0.2);
   }
+
   100% {
     box-shadow: 0 0 40px rgba(96, 112, 255, 0.4);
   }
 }
-
 
 .see-live:hover {
   background: #6070ff;
@@ -152,7 +153,8 @@ header {
 }
 
 .card-manual {
-  /* Your card styles */
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease-in-out;
 }
@@ -166,9 +168,11 @@ header {
   0% {
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
   }
+
   50% {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   }
+
   100% {
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
   }
@@ -183,9 +187,9 @@ header {
   background-image: none;
   border-bottom-left-radius: 80px 80px;
   overflow: hidden;
-  }
-  
-  .first:before {
+}
+
+.first::before {
   content: "";
   position: absolute;
   top: 0;
@@ -198,19 +202,21 @@ header {
   background-size: 100% 80%;
   animation: breath-background 10s linear infinite;
   transform-origin: center center;
-  }
-  
-  @keyframes breath-background {
+}
+
+@keyframes breath-background {
   0% {
-  transform: scale(1);
+    transform: scale(1);
   }
+
   50% {
-  transform: scale(1.2);
+    transform: scale(1.2);
   }
+
   100% {
-  transform: scale(1);
+    transform: scale(1);
   }
-  }
+}
 
 .headline-cont {
   display: flex;
@@ -349,11 +355,6 @@ header {
   flex-wrap: wrap;
   align-content: center;
   gap: 5rem;
-}
-
-.card-manual {
-  width: 90%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-title {
@@ -907,7 +908,7 @@ button:disabled { color: #5e6c84; }
     position: relative;
     overflow: hidden;
   }
-  
+
   .first::before {
     content: "";
     position: absolute;
@@ -921,20 +922,24 @@ button:disabled { color: #5e6c84; }
     background-size: 100% 80%;
     animation: move-background 20s ease-in-out infinite;
   }
-  
+
   @keyframes move-background {
     0% {
       transform: rotate(0deg) scale(1);
     }
+
     25% {
       transform: rotate(2deg) scale(1.05);
     }
+
     50% {
       transform: rotate(0deg) scale(1.1);
     }
+
     75% {
       transform: rotate(-2deg) scale(1.05);
     }
+
     100% {
       transform: rotate(0deg) scale(1);
     }
@@ -1188,7 +1193,7 @@ button:disabled { color: #5e6c84; }
 
   .modal-desc-cont {
     flex-direction: row;
-    gap: 1%
+    gap: 1%;
   }
 
   .modal-text {
