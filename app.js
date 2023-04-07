@@ -89,23 +89,6 @@ const htmlArray = [
     live_version: 'https://spacetrvlrs-marcos-matt.netlify.app',
     source: 'https://github.com/Goruchie/space-travellers-hub',
   },
-  {
-    img: './images/poke.png',
-    name: 'Poke API',
-    company: 'MICROVERSE',
-    modality: 'REMOTE',
-    highlight: '2022',
-    description: 'Poke API Webapp displays Pokemons stats from an API service. The users can share their opinions through likes and comments via the Involvement-API service.',
-    frame1: 'HTML',
-    frame2: 'CSS',
-    frame3: 'JavaScript',
-    frame4: 'Github',
-    frame5: 'Git',
-    frame6: 'Linux',
-    seeButton: '5',
-    live_version: 'https://j2zromero.github.io/Consuming-anime-API/dist/',
-    source: 'https://github.com/Goruchie/Poke-API',
-  },
 ];
 
 htmlArray.forEach((e) => {
