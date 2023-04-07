@@ -338,7 +338,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #283ee2;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -449,8 +449,8 @@ footer p {
 }
 
 .frame-btn {
-  color: #6070ff;
-  background: #ebebff;
+  color: #4b5be4;
+  background: #f6f6ff;
   padding: 0.3rem;
   border-radius: 8px;
 }
@@ -508,7 +508,7 @@ footer p {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #283ee2;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -608,6 +608,7 @@ footer p {
 .social2 {
   display: flex;
   justify-content: space-around;
+  margin-top: 2%;
 }
 
 .s1 {
