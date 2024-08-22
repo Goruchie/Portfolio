@@ -706,7 +706,7 @@ footer p {
 
 .js-item {
   width: 3rem;
-  margin-right: 1rem;
+  margin: .8rem;
 }
 
 .icon-title {
@@ -717,6 +717,7 @@ footer p {
   padding: 0.5rem;
   border-radius: 10px;
   width: 90%;
+  text-align: center;
 }
 
 .icon-title p {
@@ -1076,7 +1077,9 @@ button:disabled { color: #5e6c84; }
   .icon-title {
     width: auto;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+    align-content: center;
   }
 
   .js-item {
