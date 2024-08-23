@@ -22,6 +22,23 @@ const workSection = document.getElementById('portfolio');
 
 const htmlArray = [
   {
+    img: './images/winapp.png',
+    name: 'WinStore',
+    company: 'Freelance',
+    modality: 'REMOTE',
+    highlight: '2024',
+    description: 'WinStore is a Windows Forms app for product management built with ADO.NET.',
+    frame1: '.NET',
+    frame2: 'ADO.NET',
+    frame3: 'C#',
+    frame4: 'Windows App',
+    frame5: 'Visual Studio 2022',
+    frame6: 'SQL Server Management Studio 20',
+    seeButton: '5',
+    live_version: 'https://drive.google.com/file/d/1tI-7q6WY07arGO8eSUDqwW-nhBmTRpvp/view',
+    source: 'https://github.com/Goruchie/WinStore',
+  },
+  {
     img: './images/coin-tab.png',
     name: 'Coin Tab',
     company: 'MICROVERSE',
